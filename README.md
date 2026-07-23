@@ -1,3 +1,67 @@
+# Blueprint2Motion
+
+<p align="center">
+  <strong>Two-Stage Human-Object Manipulation Motion Synthesis via Limb-Object Blueprint</strong>
+</p>
+
+<p align="center">
+  <a href="https://doi.org/10.1002/cav.70160">Paper</a>
+  &nbsp;|&nbsp;
+  <a href="#overview">Overview</a>
+  &nbsp;|&nbsp;
+  <a href="#citation">Citation</a>
+</p>
+
+> Official source-code repository for **Blueprint2Motion**, a two-stage approach to synthesizing human-object manipulation motions through a limb-object blueprint.
+
+## Overview
+
+Human-object manipulation motion is challenging because realistic motion must preserve both human-body plausibility and meaningful interaction with the object. Blueprint2Motion frames this problem as a two-stage synthesis process, using a limb-object blueprint to guide motion generation.
+
+This repository is being prepared to host the project implementation, training and evaluation code, pretrained checkpoints, and reproducible experiment instructions.
+
+## Project Status
+
+The codebase is under preparation. The repository will include:
+
+- Data preparation and preprocessing scripts
+- Model training and inference pipelines
+- Evaluation tools for generated human-object motions
+- Checkpoints and reproduction instructions
+
+## Paper
+
+**Blueprint2Motion: Two-Stage Human-Object Manipulation Motion Synthesis via Limb-Object Blueprint**  
+L. Li, Z. Liu, T. Liu, X. Dai, and Y. Chai.  
+*Computer Animation and Virtual Worlds*, 37(4), e70160, 2026.
+
+DOI: [10.1002/cav.70160](https://doi.org/10.1002/cav.70160)
+
+## Citation
+
+```bibtex
+@article{li2026blueprint2motion,
+  title   = {Blueprint2Motion: Two-Stage Human-Object Manipulation Motion Synthesis via Limb-Object Blueprint},
+  author  = {Li, L. and Liu, Z. and Liu, T. and Dai, X. and Chai, Y.},
+  journal = {Computer Animation and Virtual Worlds},
+  volume  = {37},
+  number  = {4},
+  pages   = {e70160},
+  year    = {2026},
+  doi     = {10.1002/cav.70160}
+}
+```
+
+## License
+
+The license for the source code and released assets will be added with the public implementation.
+
+---
+
+## Archived Notes
+
+The previous LLM fine-tuning paper collection is retained below for reference.
+
 # 大模型微调论文整理
 
 整理日期：2026-07-21
@@ -91,4 +155,3 @@ LoRA减少了可训练参数的数量，DLoRA则通过减少（冻结模型的�
 Double Quantization : a method that quantizes the quantization constants
 Paged Optimizers: using NVIDIA unified memory to avoid the gradient checkpointing memory spikes that occur when
 processing a mini-batch with a long sequence length. 
-
